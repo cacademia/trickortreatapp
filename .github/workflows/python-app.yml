@@ -15,7 +15,7 @@ permissions:
 jobs:
   build-mac:
 
-    runs-on: macos-latest
+    runs-on: macos-13.3
 
     steps:
     - uses: actions/checkout@v3
