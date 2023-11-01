@@ -102,7 +102,7 @@ def show_start_screen():
 def main():
     # Initialize Pygame for audio playback
     pygame.mixer.init()
-    pygame.mixer.music.load("C:\\Users\\Akirestia\\Downloads\\Glue Song feat Clairo.wav")
+    pygame.mixer.music.load("Glue Song feat Clairo.wav")
     pygame.mixer.music.set_volume(0.25)
     pygame.mixer.music.play(-1)  # Play in an infinite loop
 
