@@ -32,7 +32,7 @@ jobs:
         # python3 -m pygame.tests
         
         python -m pip install --upgrade pip
-        pip install cv2 mediapipe numpy pygame
+        pip install opencv-python mediapipe numpy pygame
     - name: Create Executable
       uses: sayyid5416/pyinstaller@v1
       with:
